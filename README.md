@@ -1,12 +1,12 @@
-# React TypeScript Template 2025 🚀
+# React TypeScript Template 2025
 
-## 📋 Descripción
+## Descripción
 
 Template moderno de React con TypeScript completamente configurado con las mejores prácticas de desarrollo. Incluye autenticación, rutas protegidas, sistema de inactividad, y arquitectura escalable siguiendo principios SOLID.
 
-## ✨ Características Principales
+##  Características Principales
 
-### 🔧 Tecnologías Core
+###  Tecnologías Core
 - **React 18** con TypeScript
 - **Vite** como build tool (más rápido que CRA)
 - **TailwindCSS** para estilos
@@ -14,34 +14,34 @@ Template moderno de React con TypeScript completamente configurado con las mejor
 - **Redux Toolkit** para estado global
 - **Context API** para autenticación
 
-### 🔐 Autenticación y Seguridad
+###  Autenticación y Seguridad
 - Sistema de autenticación con JWT
 - Encriptación de tokens con CryptoJS
 - Rutas protegidas por roles
 - Hook de inactividad configurable
 - Logout automático por inactividad
 
-### 📁 Arquitectura Escalable
+###  Arquitectura Escalable
 - Sistema de rutas organizadas por módulos (SOLID)
 - Lazy loading de componentes
 - Estructura de carpetas escalable
 - Servicios API centralizados
 - Hooks personalizados reutilizables
 
-### 🛠️ Herramientas de Desarrollo
+###  Herramientas de Desarrollo
 - **ESLint** con configuración Airbnb
 - **Prettier** para formateo de código
 - **Husky** para git hooks
 - **Commitlint** para mensajes de commit
 - **Lint-staged** para linting automático
 
-### 🐳 DevOps y Deploy
+###  DevOps y Deploy
 - **Docker** con nginx para producción
 - **CI/CD** con Azure Pipelines y GitLab
 - Scripts de deploy automatizados
 - Configuración de variables de entorno
 
-## 🚀 Inicio Rápido
+##  Inicio Rápido
 
 ### 1. Clonar e Instalar
 ```bash
@@ -81,7 +81,7 @@ npm start
 npm run build
 ```
 
-## 📱 Uso de la Aplicación
+##  Uso de la Aplicación
 
 ### Login
 - Usa cualquier email y contraseña para la demo
@@ -93,7 +93,7 @@ npm run build
 - Logout manual o automático por inactividad
 - Interfaz moderna con TailwindCSS
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 src/
@@ -131,7 +131,7 @@ src/
 └── redux/              # Estado global (Redux)
 ```
 
-## 🔧 Scripts Disponibles
+##  Scripts Disponibles
 
 ### Desarrollo
 ```bash
@@ -154,7 +154,7 @@ npm run test         # Ejecutar tests
 npm run test:coverage # Tests con coverage
 ```
 
-## 🎯 Características Avanzadas
+##  Características Avanzadas
 
 ### Sistema de Rutas Escalable
 - Configuración modular de rutas
@@ -179,7 +179,7 @@ npm run test:coverage # Tests con coverage
 - Git hooks automatizados
 - Mensajes de commit estandarizados
 
-## 🐳 Docker
+##  Docker
 
 ### Desarrollo
 ```bash
@@ -190,14 +190,14 @@ docker run -p 3000:80 react-app
 ### Producción
 El template incluye configuración completa de Docker con nginx optimizado para producción.
 
-## 🔄 CI/CD
+##  CI/CD
 
 Incluye configuración para:
 - **Azure Pipelines** (`azure-pipelines.yml`)
 - **GitLab CI** (`.gitlab-ci.yml`)
 - **GitHub Actions** (opcional)
 
-## 📚 Clean Architecture
+##  Clean Architecture
 
 ### Arquitectura Implementada
 
@@ -226,7 +226,7 @@ El proyecto sigue los principios de Clean Architecture adaptados para React:
   - `context/`: Estado local con Context API
   - `redux/`: Estado global con Redux Toolkit
 
-## 📚 Guías de Uso
+##  Guías de Uso
 
 ### Agregar Nueva Ruta
 1. Crear el componente en `src/pages/`
@@ -243,7 +243,7 @@ El proyecto sigue los principios de Clean Architecture adaptados para React:
 2. Usar el cliente Axios configurado
 3. Manejar errores correctamente
 
-## 🤝 Contribuir
+##  Contribuir
 
 1. Fork el proyecto
 2. Crear rama feature (`git checkout -b feature/nueva-funcionalidad`)
@@ -251,7 +251,7 @@ El proyecto sigue los principios de Clean Architecture adaptados para React:
 4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Crear Pull Request
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto está bajo la Licencia MIT.
 
